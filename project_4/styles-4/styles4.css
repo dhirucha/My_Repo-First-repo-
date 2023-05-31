@@ -1,0 +1,93 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Logo and navbar */
+ul,.container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    justify-content: space-between;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+.navbar{
+    margin-left: 20px;
+}
+
+/* buttons */
+
+.primary-btn,.secondary-btn{
+    margin-left: 200px;
+    border: none;
+    background-color: #5955b3;
+    color: #ffffff;
+    padding: 14px 28px;
+    border-radius: 12px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    font-weight: 1200;
+    transition: 0.2s ease-in-out;
+    color: #5955b3;
+}
+
+.sub-head{
+    margin-left: 43px;
+    margin-top: 150px;
+}
+
+h1{
+    font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  color: #3c2f60;
+}
+
+span{
+    color: #5955b3;
+}
+
+.primary-btn{
+    margin-top: 20px;
+    margin-left: 0%;
+}
+p{
+    margin-top: 5px;
+}
+
+/* Header png */
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 580px;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+}
+
+
+/* btns hover */
+.primary-btn:hover{
+    background-color: transparent;
+    border: 1px solid #5955b3;
+    color: #5955b3;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+}
+
+.secondary-btn:hover{
+    background-color: transparent;
+    border: 1px solid #5955b3;
+    color: #5955b3;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+}
