@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background-image: url("../assets-5/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 15px;
+  }
+
+/* --------------- */
+/* -----Navbar------ */
+/* ---------------- */
+
+
+
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+     padding: 12px 20px; 
+    background-color: #000;
+    border-radius: 10px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 3px;
+    
+  }
+  .btn-small{
+    border: none;
+    background-color: #ba0cc5;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+/* Hero content */
+  
+  .hero-content{
+    display: flex;
+    align-items: center;
+    
+    
+    text-align: center;
+    color: #fff;
+    
+  }
+
+  .main-heading{
+    max-width: 846px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #ffffff;
+   padding-top: 155px; 
+  margin-left: 250px; 
+  }
+
+  .description{
+    position: absolute;
+    left: 200px;
+    bottom: 30px;
+    margin-bottom: 180px;
+    margin-left: 230px;
+    font-weight: 700;
+    word-spacing: 4px;
+    font-size: 20px;
+  }
+
+
+
+
+  .btn-large{
+    border: none;
+    background-color: #ba0cc5;
+    padding: 10px 30px ;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 500px;
+    cursor: pointer;
+
+  }
+
+  /* Buttons hover */
+  .btn-large:hover{
+    background-color: #000;
+    border: 1px solid black;
+    color: #fff;
+    transition: 0.2s ease-in;
+  }
+
+  .btn-small:hover{
+    background-color: transparent;
+    border: 1px solid rgb(69, 62, 165);
+    color: #fff;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+  }
+
+  .list:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+
+  
